@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+/* General Classes  --------------------------------------------------  */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    color: #303030;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.title {
+    font-family: 'Pacifico', cursive;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+/* General Aspects  ---------------------------------------------------  */
+
+body {
+    background-color: #fff;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+} header .title {
+    line-height: 40px;
+    font-size: 22px;
+} header button {
+    float: right;
+    border: none;
+    margin-top: 10px;
+    font-weight: bold;
+    background: transparent;
+    padding: 0px 5px 5px 5px;
+
+    transition: 100ms;
+} header button:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #303030;
+} header img {
+    float: left;
+    margin: 4px 10px 0px 0px;
+}
+
+/* Own Aspects  ---------------------------------------------------  */
+
+.body-dev {
+    width: 100%;
+    padding-top: 80px;
+    text-align: center;
+} .body-dev h2 {
+    display: block;
+    font-size: 36px;
+} .body-dev .conversor { 
+    margin: 0px auto 0px auto;
+} .body-dev .conversor tr { 
+    display: block;
+    margin-top: 30px;
+} .body-dev .conversor tr td {
+    display: inline-block;
+} .body-dev .conversor tr td textarea {
+    width: 300px;
+    resize: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #246BFF;
+}
+
+#do-it {
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #246BFF;
+}
+
+h3 {
+    font-size: 22px;
+    margin-top: 50px;
+}
+
+.instructions {
+    width: 60%;
+    text-align: justify;
+    margin: 10px auto 50px auto;
+} .instructions  p {
+    font-size: 12px;
+} .instructions tr { display: block; }
+.instructions tr td {
+    display: inline-block;
+    margin: 0px 10px;
+}

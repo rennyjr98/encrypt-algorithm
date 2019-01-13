@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="icon" type="image/png" href="imgs/logo.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index-sty.css">
+
+    <title> Basic Encryption | by RennyJr </title>
+
+    <script src="js/algebra.js"></script>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <img src="imgs/logo.png" width="40">
+            <span class="title"> Simple Encryption </span>
+            <button id="change-state"> Change </button>
+        </div>
+    </header>
+
+    <div class="body-dev">
+        <div class="wrapper">
+            <h2 class="title" id="operation"> Encrypt </h2>
+
+            <table class="conversor">
+                <tr>
+                    <td><textarea name="" id="message" cols="30" rows="10"></textarea></td>
+                    <td><textarea name="" id="messagef" cols="30" rows="10" readonly></textarea></td>
+                </tr>
+                <tr>
+                    <td><button id="do-it"> Encrypt </button></td>
+                </tr>
+            </table>
+
+            <h3 class="title"> Instructions </h3>
+
+            <div class="instructions">
+                <table>
+                    <tr>
+                        <td> <p> * Only the alphabet is available in this encryption. </p> </td>
+                    </tr>
+                    <tr>
+                        <td> <p> * The button change, change between encrypt and decrypt options. </p> </td>
+                    </tr>
+                    <tr>
+                        <td> <p> * The matrices used to encrypt and decrypt messages are the following. </p> </td>
+                    </tr>
+                    <tr>
+                        <td> <br><p> Encoding matrix:
+                             <br> [1, -1, 2]
+                             <br> |-2, 0, 4|
+                             <br> [0, -2, 7]</p> </td>
+
+                        <td> <br><p> Decoding matrix:
+                             <br> [4, 3/2, -2]
+                             <br> |7, 7/2, -4|
+                             <br> [2, &nbsp;1 , -1] </p> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br><p> Just messages encrypt with the encoding matrix can be decrypt in this page </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
