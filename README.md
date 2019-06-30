@@ -43,7 +43,7 @@ Now we have the message encrypt.
 
 # Decrypting
 
-To decrypt the message the only thing we can do is multiplied the encrypt matrix with the decoding matrix, and result will be the matrix that containing the matrix with the replacement numbers. And then just remplace again with the letter in our dictionary and then we'll have the message.
+To decrypt the message the only thing we can do is multiplied the text encrypt matrix with the decoding matrix, and result will be the matrix that containing the matrix with the replacement numbers. And then just remplace again with the letter in our dictionary and then we'll have the message.
 
 ```
 Matrix A (Decoding matrix)     Matrix B (Matrix product)     Matrix result
