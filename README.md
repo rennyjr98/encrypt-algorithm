@@ -24,7 +24,7 @@ Message "Hello world"
 
 Then: Hello world = [7, 4, 11, 11, 14, 52, 22, 14, 17, 11, 3]
 ```
-# Multiplication
+# Encryption
 
 Now we have two matrices with some atributes that in math, can be multiplied each other, the rule is if the matrix A has the same columns than rows of the matrix B then can be multiplied. On this case:
 
